@@ -12,6 +12,7 @@ public class CandidateController implements CandidateEndpoints {
 
     @Override
     public Double getCandidateAverage(Long candidateId) {
+
         return candidateService.getCandidateAverage(candidateId);
     }
 }
